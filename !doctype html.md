@@ -1,0 +1,266 @@
+<!doctype html>  
+<html lang="tr">  
+<head>  
+  <meta charset="utf-8" />  
+  <meta name="viewport" content="width=device-width,initial-scale=1" />  
+  <title>FAMOUS Meyhane — Çankaya, Ankara</title>  
+  <meta name="description" content="FAMOUS - Çankaya'da yeni nesil meyhane. Güzel mezeler, taze balıklar, geleneksel tatlar ve sıcak atmosfer." />  
+  <meta name="theme-color" content="#2b2b2b" />  
+  
+  <style>  
+    /* Temel reset */  
+    *{box-sizing:border-box;margin:0;padding:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;}  
+    body{color:#222;background:#faf7f3;line-height:1.45}  
+    a{color:inherit;text-decoration:none}  
+    header{background:#1f1b16;color:#fff;padding:28px 18px}  
+    .container{max-width:1100px;margin:0 auto;padding:24px}  
+    .brand{display:flex;align-items:center;gap:14px}  
+    .logo{  
+      width:64px;height:64px;border-radius:8px;background:#d9b382;display:flex;align-items:center;justify-content:center;  
+      font-weight:700;color:#1f1b16;font-size:18px;box-shadow:0 6px 18px rgba(0,0,0,0.12)  
+    }  
+    nav{margin-left:auto}  
+    .navlinks{display:flex;gap:14px;align-items:center}  
+    .btn{background:#d9b382;color:#1f1b16;padding:10px 14px;border-radius:8px;font-weight:600}  
+    main.hero{display:grid;grid-template-columns:1fr;gap:18px;padding:36px 0}  
+    .hero-inner{display:flex;flex-direction:column;gap:18px}  
+    .hero h1{font-size:36px;line-height:1.05}  
+    .hero p{max-width:720px;color:#3a3a3a}  
+    .hero-cta{display:flex;gap:12px;flex-wrap:wrap}  
+    .card{background:#fff;border-radius:12px;padding:18px;box-shadow:0 6px 20px rgba(20,20,20,0.06)}  
+    .grid{display:grid;gap:18px}  
+    .two-col{grid-template-columns:repeat(2,1fr)}  
+    .menu-section h2{font-size:22px;margin-bottom:10px}  
+    .menu-pack{display:flex;flex-direction:column;gap:8px;padding:12px;border-radius:10px;border:1px solid #eee}  
+    .price{font-weight:800;font-size:20px;color:#b85f2b}  
+    .meze-list{display:flex;flex-direction:column;gap:6px;margin-top:8px}  
+    footer{margin-top:28px;padding:18px 0;color:#666}  
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}  
+    .socials{display:flex;gap:10px;align-items:center}  
+    form input, form textarea, form select{width:100%;padding:10px;border-radius:8px;border:1px solid #ddd;margin-top:6px}  
+    form button{margin-top:8px;padding:10px 12px;border-radius:8px;border:none;background:#b85f2b;color:white;font-weight:700}  
+    @media(min-width:800px){  
+      .hero{grid-template-columns:1fr 420px}  
+      .two-col{grid-template-columns:1fr 1fr}  
+    }  
+  </style>  
+</head>  
+<body>  
+  <header>  
+    <div class="container" style="display:flex;align-items:center;">  
+      <div class="brand" aria-label="FAMOUS Meyhane">  
+        <div class="logo">FAMOUS</div>  
+        <div>  
+          <div style="font-weight:700">FAMOUS Meyhane</div>  
+          <div style="font-size:13px;color:#e9d7c2">Çankaya • Ankara</div>  
+        </div>  
+      </div>  
+  
+      <nav style="margin-left:auto">  
+        <div class="navlinks" role="navigation" aria-label="Ana menü">  
+          <a href="#menu">Menü</a>  
+          <a href="#rezervasyon">Rezervasyon</a>  
+          <a class="btn" href="#iletisim">İletişim</a>  
+        </div>  
+      </nav>  
+    </div>  
+  </header>  
+  
+  <main class="container hero">  
+    <section class="hero-inner card">  
+      <h1>FAMOUS — Yeni nesil meyhane deneyimi</h1>  
+      <p>Samimi ortam, özenle hazırlanmış mezeler, taze balıklar ve seçkin rakı & şarap seçenekleri. Çankaya'nın merkezinde, hem klasik tadları hem modern sunumu bir arada bulabileceğiniz bir mekan.</p>  
+  
+      <div class="hero-cta">  
+        <a class="btn" href="#menu">Fix Menülerine Bak</a>  
+        <a href="#rezervasyon" style="padding:10px 12px;border-radius:8px;background:transparent;border:1px solid #d9b382">Rezervasyon Yap</a>  
+      </div>  
+  
+      <div style="margin-top:12px;color:#6b6b6b;font-size:14px">  
+        Açılışa özel: İlk 2 hafta %15 sabit menü indirimi. (Rezervasyonda belirtiniz.)  
+      </div>  
+    </section>  
+  
+    <aside class="card" style="min-height:220px">  
+      <!-- Görsel yer tutucu -->  
+      <img src="https://via.placeholder.com/420x260?text=FAMOUS+Meyhane+G%C3%B6rseli" alt="FAMOUS Meyhane görseli" style="width:100%;height:auto;border-radius:8px;object-fit:cover" />  
+      <div style="margin-top:12px;font-size:14px">  
+        <strong>Adres:</strong> Çankaya, Ankara — (Detaylı adres için iletişime geçin)<br>  
+        <strong>Açılış:</strong> 18:00 — 02:00 (Hafta içi/Hafta sonu değişebilir)<br>  
+        <strong>Telefon:</strong> 0 (___) ___ __ __  
+      </div>  
+    </aside>  
+  </main>  
+  
+  <!-- Menü -->  
+  <section id="menu" class="container menu-section" style="margin-top:18px">  
+    <div class="card">  
+      <h2>Fix Menülerimiz</h2>  
+      <p style="color:#666;margin-bottom:10px">Grup için hazırlanmış sabit menüler — tüm paketler meze seçkisi + ara sıcak + ana yemek + tatlı içerir. Alkollü-alkolsüz içecekler ayrı listelenir (aşağıda).</p>  
+  
+      <div class="grid two-col" style="margin-top:12px">  
+        <!-- Ekonomi -->  
+        <div class="menu-pack">  
+          <div style="display:flex;justify-content:space-between;align-items:center">  
+            <div><strong>FAMOUS Ekonomi</strong><div style="font-size:13px;color:#777">Hafif ama tatmin edici</div></div>  
+            <div class="price">249 TL / kişi</div>  
+          </div>  
+          <div class="meze-list">  
+            <div><strong>Mezeler (örnek):</strong> ezme, haydari, acılı ezogelin, közlenmiş patlıcan</div>  
+            <div><strong>Ara Sıcak:</strong> sigara böreği, midye tava (orta)</div>  
+            <div><strong>Ana:</strong> tavuk şiş veya levrek ızgara (seçmeli)</div>  
+            <div><strong>Tatlı:</strong> kabak tatlısı veya dondurma</div>  
+            <div style="font-size:13px;color:#888">Minimum 2 kişi. Yemekler paylaşım amaçlı servise uygundur.</div>  
+          </div>  
+        </div>  
+  
+        <!-- Klasik -->  
+        <div class="menu-pack">  
+          <div style="display:flex;justify-content:space-between;align-items:center">  
+            <div><strong>FAMOUS Klasik</strong><div style="font-size:13px;color:#777">Meyhane deneyiminin özü</div></div>  
+            <div class="price">349 TL / kişi</div>  
+          </div>  
+          <div class="meze-list">  
+            <div><strong>Mezeler (örnek):</strong> kısır, ahtapot salatası, karides tava, humus</div>  
+            <div><strong>Ara Sıcak:</strong> kalamar, arnavut ciğeri</div>  
+            <div><strong>Ana:</strong> çupra veya ızgara kuzu pirzola (seçmeli)</div>  
+            <div><strong>Tatlı:</strong> fırın sütlaç veya şerbetli tatlı</div>  
+            <div style="font-size:13px;color:#888">Sofra sunumu, meyhane tabakta paylaşım odaklıdır.</div>  
+          </div>  
+        </div>  
+  
+        <!-- Premium -->  
+        <div class="menu-pack">  
+          <div style="display:flex;justify-content:space-between;align-items:center">  
+            <div><strong>FAMOUS Premium</strong><div style="font-size:13px;color:#777">Özel günlere, kutlamalara</div></div>  
+            <div class="price">499 TL / kişi</div>  
+          </div>  
+          <div class="meze-list">  
+            <div><strong>Mezeler (örnek):</strong> levrek tartar, közlenmiş çift peynir, humus trüflü</div>  
+            <div><strong>Ara Sıcak:</strong> karides güveç, kuzu incik</div>  
+            <div><strong>Ana:</strong> ızgara deniz mahsulleri tabağı veya kuzu tandır</div>  
+            <div><strong>Tatlı:</strong> lokum tabağı + özel sunum</div>  
+            <div style="font-size:13px;color:#888">Özel menü talebi, vegan/vejetaryen alternatifleri sağlanır.</div>  
+          </div>  
+        </div>  
+  
+        <!-- Grup paketi (örnek) -->  
+        <div class="menu-pack">  
+          <div style="display:flex;justify-content:space-between;align-items:center">  
+            <div><strong>Grup Paketi (6+)</strong><div style="font-size:13px;color:#777">Kutuplaştıramayan sofralar için</div></div>  
+            <div class="price">320 TL / kişi</div>  
+          </div>  
+          <div class="meze-list">  
+            <div><strong>İçerik:</strong> 8 çeşit meze + 2 ara sıcak + deniz ürünleri tabağı + tatlı</div>  
+            <div style="font-size:13px;color:#888">Rezervasyon esnasında müzik ve masa düzeni isteği alınır.</div>  
+          </div>  
+        </div>  
+  
+      </div>  
+    </div>  
+  </section>  
+  
+  <!-- İçecekler -->  
+  <section class="container" style="margin-top:18px">  
+    <div class="card">  
+      <h2>İçecekler & Şarap / Rakı Seçkisi</h2>  
+      <p style="color:#666">Fiyatlar örnektir; stoklara göre değişebilir.</p>  
+  
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px">  
+        <div>  
+          <strong>Rakılar</strong>  
+          <ul style="margin-top:8px;color:#333">  
+            <li>Yeni Rakı (şişe) - 650 TL</li>  
+            <li>Tekirdağ 0.7 - 700 TL</li>  
+            <li>Ezginin Ruhu (seçili) - 850 TL</li>  
+          </ul>  
+        </div>  
+        <div>  
+          <strong>Şaraplar (kadeh)</strong>  
+          <ul style="margin-top:8px;color:#333">  
+            <li>Yerel Kırmızı (kadeh) - 75 TL</li>  
+            <li>Sauvignon Blanc (kadeh) - 80 TL</li>  
+            <li>Seçkin Şişe (şehirden özel) - Fiyat sorunuz</li>  
+          </ul>  
+        </div>  
+      </div>  
+  
+      <div style="margin-top:12px">  
+        <strong>Alkolsüz & Kokteyller</strong>  
+        <div style="margin-top:8px;color:#333">  
+          Ev yapımı limonata - 35 TL · Şalgam - 25 TL · Türkiye usulü maden suyu - 20 TL · Meyhane kokteylleri (alkolsüz) - 45 TL  
+        </div>  
+      </div>  
+    </div>  
+  </section>  
+  
+  <!-- Rezervasyon -->  
+  <section id="rezervasyon" class="container" style="margin-top:18px">  
+    <div class="card">  
+      <h2>Rezervasyon</h2>  
+      <p style="color:#666">Rezervasyon formunu doldurun; ekip kısa sürede size dönüş yapacaktır (telefonla önceliklidir).</p>  
+  
+      <form action="#" method="post" aria-label="Rezervasyon formu" onsubmit="alert('Bu demo formudur — gerçek sunucuya bağlanmıyor. İletişim için telefonu kullanın.'); return false;">  
+        <label>Adınız Soyadınız  
+          <input type="text" name="name" placeholder="Örn: Mehmet Yılmaz" required>  
+        </label>  
+  
+        <label>Telefon  
+          <input type="tel" name="phone" placeholder="0 5xx xxx xx xx" required>  
+        </label>  
+  
+        <label>Tarih & Saat  
+          <input type="datetime-local" name="datetime" required>  
+        </label>  
+  
+        <label>Kişi Sayısı  
+          <select name="people" required>  
+            <option value="">Seçiniz</option>  
+            <option>2</option><option>3</option><option>4</option><option>5</option><option>6+</option>  
+          </select>  
+        </label>  
+  
+        <label>Not (alergi, özel talep)  
+          <textarea name="note" rows="3" placeholder="Örn: Vegan alternatif, doğum günü süsleme vs."></textarea>  
+        </label>  
+  
+        <button type="submit">Rezervasyon İsteği Gönder</button>  
+      </form>  
+    </div>  
+  </section>  
+  
+  <!-- İletişim -->  
+  <section id="iletisim" class="container" style="margin-top:18px">  
+    <div class="card">  
+      <h2>İletişim</h2>  
+      <div class="contact-grid" style="margin-top:10px">  
+        <div>  
+          <strong>Adres</strong>  
+          <div style="margin-top:6px;color:#444">Çankaya, Ankara — (Detaylı adres: örnek caddesi No:00)</div>  
+  
+          <div style="margin-top:10px"><strong>Telefon</strong><div style="color:#333;margin-top:6px">0 (___) ___ __ __</div></div>  
+          <div style="margin-top:10px"><strong>E-posta</strong><div style="color:#333;margin-top:6px">info@famousmeyhane.com</div></div>  
+  
+          <div style="margin-top:10px" class="socials">  
+            <a href="#" aria-label="Instagram">Instagram</a> · <a href="#" aria-label="Facebook">Facebook</a> · <a href="#" aria-label="Yorum">Yorumlar</a>  
+          </div>  
+        </div>  
+  
+        <div>  
+          <strong>Harita</strong>  
+          <div style="margin-top:6px;color:#666;font-size:13px">Harita yer tutucusu — gerçek konum eklenecek.</div>  
+          <iframe title="FAMOUS Meyhane konum" src="https://www.google.com/maps/embed?pb=!1m18" style="width:100%;height:180px;border:0;margin-top:8px;border-radius:8px"></iframe>  
+        </div>  
+      </div>  
+    </div>  
+  </section>  
+  
+  <footer class="container">  
+    <div style="display:flex;justify-content:space-between;align-items:center">  
+      <div style="font-size:13px;color:#888">© <strong>FAMOUS Meyhane</strong> — Tüm hakları saklıdır.</div>  
+      <div style="font-size:13px;color:#888">Web: demo • Tasarım: in-house</div>  
+    </div>  
+  </footer>  
+  
+</body>  
+</html>  
